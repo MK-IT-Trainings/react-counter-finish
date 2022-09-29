@@ -1,2 +1,2 @@
 # React Counter Starter
-This is the React Counter Lesson Github repository, feel free to use it as a template to complete the `React Counter LAB`
+This is the finished code for the (React Counter Lesson Github repository)[], this is how your code should look like at the end of the LAB. 
