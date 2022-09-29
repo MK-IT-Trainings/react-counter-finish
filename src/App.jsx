@@ -1,14 +1,14 @@
-import Counter from './components/Counter'
+import Counter from './components/Counter';
 import './App.css'
 
 function App() {
   return (
     <Counter 
-      hasIncrement
-      hasDecrement
-      hasMultiplyBy
-      hasDivideBy
-      hasCustomInput/>
+      useIncrement
+      useDecrement
+      useMultiplyBy
+      useDivideBy
+      useCustomInput />
   )
 }
 

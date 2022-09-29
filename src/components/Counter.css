@@ -6,6 +6,12 @@
 
 .counter-control-container {
     display: flex;
+    border: 1px solid transparent;
+    border-radius: 9px;
+}
+
+.counter-control-container:hover {
+    border-color: #646cff;
 }
 
 .counter-control-container > input {
@@ -16,7 +22,14 @@
 }
 
 .counter-control-container > button {
+    width: 100%;
+}
+
+.counter-control-container > button:hover {
+    border-color: transparent;
+}
+
+.counter-control-container > input + button {
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
-    width: 100%;
 }
