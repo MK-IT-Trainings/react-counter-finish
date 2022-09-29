@@ -1,0 +1,22 @@
+.counter-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.counter-control-container {
+    display: flex;
+}
+
+.counter-control-container > input {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 15px;
+    border-color: #00000005
+}
+
+.counter-control-container > button {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    width: 100%;
+}
